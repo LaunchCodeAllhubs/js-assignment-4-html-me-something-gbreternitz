@@ -1,1 +1,50 @@
 /* Write your CSS here! */
+body {
+    margin: 8px;
+    display: block;
+    max-width: 1024px;
+    background-color: beige;
+}
+
+h1, h2 {
+    margin-right:10px;
+    margin-left:10px;
+}
+
+.bounceButton {
+    padding: left 50px;
+    margin-left: 50px;
+    background-color: darkorchid;
+    color:aliceblue;
+}
+
+#levelTable {
+    padding: 10px;
+    width: 60%;
+    border: 3px solid goldenrod;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+th {
+    text-align: left;
+    color: blueviolet;
+}
+
+.center {
+    margin: auto;
+    width: 50%;
+    padding: 10px;
+  }
+
+#mainHeading {
+    color:red;
+}
+
+.funParagraph {
+    color:green;
+}
+

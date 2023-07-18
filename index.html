@@ -3,10 +3,11 @@
 <html>
    <head>
       <title>Skyball 2</title>
+      <link rel="stylesheet" type="text/css" href="styles.css">
    </head>
    <body>
       <header>
-         <h1>Skyball 2: Design Document</h1>>
+         <h1 id="mainHeading">Skyball 2: Design Document</h1>
          <p> Skyball 2 is a conceptual video game that came to me in a dream. It is the sequel to 
             <b>Skyball</b>, a game that does not 
             and never will exist.</p>
@@ -20,18 +21,20 @@
       </header>
       <main>
          <h2> It all began with a dream...</h2>
-         <div><img src="images/skyball-art.jpg" alt="little robot jeep on a planet in the game Skyball 2"></div>
+         <div class="center"><img src="images/skyball-art.jpg" alt="little robot jeep on a planet in the game Skyball 2" class="images"></div>
          <p> I was dreaming of a world.....blah blah blah</p>
          
          <article>
             <h2>The Concept</h2>
-            <p>It's a game where the world is a 3D open world, but
-               you can occasionally reach Jump Points. When you reach a Jump Point, the game clock slows, the camera compresses sideways, and
-               the view transforms into 2D - at which point you can pull down on the ground itself and launch your 
-               little character like a slingshot.</p>
-            <p>This is the main point of the game - find a jump point, launch your character, and  collect Skyballs</p>
-            <p>The game increase in complexity by adding more movement options; initially, you only have your slingshot ability.</p>
-            <p>But as you progress, levels get harded and you gain new movement types -- Double Jump and Directional Jump.</p>
+            <div>
+               <p>It's a game where the world is a 3D open world, but
+                  you can occasionally reach Jump Points. When you reach a Jump Point, the game clock slows, the camera compresses sideways, and
+                  the view transforms into 2D - at which point you can pull down on the ground itself and launch your 
+                  little character like a slingshot.</p>
+               <p id="testP" class="funParagraph">This is the main point of the game - find a jump point, launch your character, and collect Skyballs in increasingly hard to reach areas.</p>
+               <p>The game increase in complexity by adding more movement options; initially, you only have your slingshot ability.</p>
+               <p>But as you progress, levels get harded and you gain new movement types -- Double Jump and Directional Jump.</p>
+            </div>
          </article>
 
          <article>
@@ -39,7 +42,7 @@
             <p>Cartoony, likely, but with an element of psychadelic hyper-realism. 
                Idk what that means either, but think <a href="https://www.dirtybit.com/funrun3">FunRun</a> meets 
                <a href="https://en.wikipedia.org/wiki/Borderlands_(series)"> Borderlands.</a></p>
-               <div><img src="images/jeep-concept-art.png" alt="three cool jeeps in the game Skyball 2"></div>
+            <div class="center"><img src="images/jeep-concept-art.png" alt="three cool jeeps in the game Skyball 2"></div>
          </article>
 
          <article>
@@ -67,7 +70,7 @@
          </article>
 
          <h2>Game Progression</h2>
-         <table>
+         <table id="levelTable">
             <tr>
                <th><b>Levels</b></th>
                <th>Level 1</th>
@@ -78,7 +81,7 @@
                <td><b>Car Type</b></td>
                <td>Jeep</td>
                <td>Hummer</td>
-               <td>Jeep with the Doors Off</td>
+               <td>Jeep with the doors off</td>
             </tr>
             <tr>
                <td><b>Jump Power</b></td>
@@ -89,13 +92,13 @@
          </table>
       </main>
       <footer>
-         <blockquote><em>The most exciting new frontier in gaming since Tic Tac Toe 2.</em></blockquote>
+         <blockquote class ="center"><em>The most exciting new frontier in gaming since Tic Tac Toe 2.</em></blockquote>
 
          <h3>
             Want to bounce?
          </h3>
          <p>Contact skyball2@mailinator.com</p>
-         <button>Click me to Bounce</button>
+         <button class="bounceButton">Click me to Bounce</button>
          <h2><b>&nbsp; &empty; &nbsp; &empty; &nbsp; &empty; &nbsp; &nabla; &nbsp; &empty; &nbsp; &empty; &nbsp; &empty; &nbsp; </b></h2>
       </footer>
    </body>
